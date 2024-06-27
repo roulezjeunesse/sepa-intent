@@ -129,7 +129,7 @@ const PaymentForm = () => {
         </div>
         <h2 className={styles.formTitle}>IBAN</h2>
         <div className={styles.infoText}>
-          Autorisation de prélèvement SEPA relative à la caution du stock de pièces détachées, conformément à notre contrat. Il s&apos;agit uniquement d&apos;une autorisation de prélèvement. Aucune somme n&apos;est bloquée ou débitée de votre compte.
+          Autorisation de prélèvement SEPA relative à la caution du stock de pièces détachées, conformément à notre contrat. Il s&apos;agit d&apos;une autorisation de prélèvement. Aucune somme n&apos;est bloquée ou débitée de votre compte, à l&apos;exception d&apos;un prélèvement test de 1€ qui vous sera remboursé sous 15 jours ouvrés.
         </div>
         <form onSubmit={handleSubmit}>
           <div className={styles.formElement}>
