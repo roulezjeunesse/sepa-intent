@@ -1,0 +1,94 @@
+/* components/PaymentForm.module.css */
+
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+    background-color: #595fe7;
+    /* Main background color */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.formContainer {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+    /* Updated background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+}
+
+.formTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #595fe7;
+    /* Main color */
+}
+
+.userInfo {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #595fe7;
+    /* Main color */
+}
+
+.infoText {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formElement {
+    margin-bottom: 20px;
+}
+
+.ibanElement {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #595fe7;
+    /* Updated button color to match the main color */
+    color: #D5FF4F;
+    /* Main color for text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:disabled {
+    background-color: #333;
+    cursor: not-allowed;
+}
+
+.submitButton:hover:not(:disabled) {
+    background-color: #4e53d1;
+    /* Slightly darker button color for hover effect */
+}
